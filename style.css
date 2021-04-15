@@ -1,7 +1,7 @@
 body {
   position: relative;
   margin: 0;
-  min-width: 1408px;
+  min-width: 100%;/*1408px*/
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 1408px;
+  max-width: 100%;/*1408px*/
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -113,9 +113,9 @@ body {
   position: absolute;
   content: "";
   top: 24px;
-  left: calc(50vw - 32px);
-  width: 800px;
-  height: 800px;
+  left: calc(42vw - 32px);
+  width: 800px;/*698px*/
+  height: 800px;/*800px*/
   background-image: url("img/hero-image.svg");
   background-repeat: no-repeat;
 }
@@ -234,11 +234,23 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("img/icon-html.png");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("img/icon-css.png");
+}
+
+.skill-js {
+  background-image: url("img/icon-js.png");
+}
+
+.skill-php {
+  background-image: url("img/icon-php.png");
+}
+
+.skill-mysql {
+  background-image: url("img/icon-mysql.png");
 }
 
 .level {
